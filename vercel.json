@@ -1,0 +1,16 @@
+# Archivo: vercel.json
+
+{
+    "builds": [
+        {
+            "src": "app.py",
+            "use": "@streamlit/vercel-streamlit-build"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "app.py"
+        }
+    ]
+}
