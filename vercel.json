@@ -1,5 +1,3 @@
-# Archivo: vercel.json
-
 {
     "builds": [
         {
